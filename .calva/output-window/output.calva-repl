@@ -5,13 +5,7 @@
 ; Happy coding! ♥️
 
 ; Jacking in...
-; Starting Jack-in Terminal: java -jar '/Users/marc/.vscode/extensions/betterthantomorrow.calva-2.0.307/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
-; Jacking in...
-; Starting Jack-in Terminal: java -jar '/Users/marc/.vscode/extensions/betterthantomorrow.calva-2.0.307/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
-; Jacking in...
-; Starting Jack-in Terminal: java -jar '/Users/marc/.vscode/extensions/betterthantomorrow.calva-2.0.307/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
-; Jacking in...
-; Starting Jack-in Terminal: java -jar '/Users/marc/.vscode/extensions/betterthantomorrow.calva-2.0.307/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Starting Jack-in Terminal: java -jar '/Users/marcmendoza/.vscode/extensions/betterthantomorrow.calva-2.0.307/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
 ; Hooking up nREPL sessions...
 ; Connected session: clj
 ; TIPS:
@@ -32,9 +26,208 @@ clj꞉shorturl.db꞉> 
 clj꞉shorturl.db꞉> 
 #'shorturl.db/mysql-db
 clj꞉shorturl.db꞉> 
+#'shorturl.db/mysql-db
+clj꞉shorturl.db꞉> 
 ()
+clj꞉shorturl.db꞉> 
+()
+clj꞉shorturl.db꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: java -jar '/Users/marcmendoza/.vscode/extensions/betterthantomorrow.calva-2.0.307/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+; WARNING: set already refers to: #'clojure.core/set in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/set
+; WARNING: into already refers to: #'clojure.core/into in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/into
+; WARNING: group-by already refers to: #'clojure.core/group-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/group-by
+; WARNING: update already refers to: #'clojure.core/update in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/update
+; WARNING: partition-by already refers to: #'clojure.core/partition-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/partition-by
+; WARNING: for already refers to: #'clojure.core/for in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/for
+; WARNING: filter already refers to: #'clojure.core/filter in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/filter
+clj꞉shorturl.db꞉> 
+["SELECT * FROM redirects"]
+clj꞉shorturl.db꞉> 
+#'shorturl.db/mysql-db
+clj꞉shorturl.db꞉> 
+nil
+; WARNING: set already refers to: #'clojure.core/set in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/set
+; WARNING: into already refers to: #'clojure.core/into in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/into
+; WARNING: group-by already refers to: #'clojure.core/group-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/group-by
+; WARNING: update already refers to: #'clojure.core/update in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/update
+; WARNING: partition-by already refers to: #'clojure.core/partition-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/partition-by
+; WARNING: for already refers to: #'clojure.core/for in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/for
+; WARNING: filter already refers to: #'clojure.core/filter in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/filter
 clj꞉shorturl.db꞉> 
 #'shorturl.db/mysql-db
 clj꞉shorturl.db꞉> 
 ()
+clj꞉shorturl.db꞉> 
+nil
+; WARNING: set already refers to: #'clojure.core/set in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/set
+; WARNING: into already refers to: #'clojure.core/into in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/into
+; WARNING: group-by already refers to: #'clojure.core/group-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/group-by
+; WARNING: update already refers to: #'clojure.core/update in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/update
+; WARNING: partition-by already refers to: #'clojure.core/partition-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/partition-by
+; WARNING: for already refers to: #'clojure.core/for in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/for
+; WARNING: filter already refers to: #'clojure.core/filter in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/filter
+clj꞉shorturl.db꞉> 
+#'shorturl.db/mysql-db
+clj꞉shorturl.db꞉> 
+#'shorturl.db/mysql-db
+clj꞉shorturl.db꞉> 
+#'shorturl.db/mysql-db
+clj꞉shorturl.db꞉> 
+#'shorturl.db/mysql-db
+clj꞉shorturl.db꞉> 
+#'shorturl.db/mysql-db
+clj꞉shorturl.db꞉> 
+#'shorturl.db/mysql-db
+clj꞉shorturl.db꞉> 
+()
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:20:3).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:19:3).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+nil
+clj꞉shorturl.db꞉> 
+nil
+; WARNING: set already refers to: #'clojure.core/set in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/set
+; WARNING: into already refers to: #'clojure.core/into in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/into
+; WARNING: group-by already refers to: #'clojure.core/group-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/group-by
+; WARNING: update already refers to: #'clojure.core/update in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/update
+; WARNING: partition-by already refers to: #'clojure.core/partition-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/partition-by
+; WARNING: for already refers to: #'clojure.core/for in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/for
+; WARNING: filter already refers to: #'clojure.core/filter in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/filter
+clj꞉shorturl.db꞉> 
+#'shorturl.db/mysql-db
+clj꞉shorturl.db꞉> 
+nil
+clj꞉shorturl.db꞉> 
+#'shorturl.db/query
+clj꞉shorturl.db꞉> 
+()
+clj꞉shorturl.db꞉> 
+nil
+clj꞉shorturl.db꞉> 
+()
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:25:3).
+; Unable to resolve symbol: insert! in this context
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:25:3).
+; Unable to resolve symbol: insert! in this context
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:25:3).
+; Unable to resolve symbol: insert! in this context
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:25:3).
+; Unable to resolve symbol: insert! in this context
+clj꞉shorturl.db꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: java -jar '/Users/marcmendoza/.vscode/extensions/betterthantomorrow.calva-2.0.307/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; Syntax error compiling at (db.clj:21:3).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+nil
+; WARNING: set already refers to: #'clojure.core/set in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/set
+; WARNING: into already refers to: #'clojure.core/into in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/into
+; WARNING: group-by already refers to: #'clojure.core/group-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/group-by
+; WARNING: update already refers to: #'clojure.core/update in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/update
+; WARNING: partition-by already refers to: #'clojure.core/partition-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/partition-by
+; WARNING: for already refers to: #'clojure.core/for in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/for
+; WARNING: filter already refers to: #'clojure.core/filter in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/filter
+clj꞉shorturl.db꞉> 
+#'shorturl.db/mysql-db
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:21:3).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:23:3).
+; Unable to resolve symbol: insert! in this context
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:19:3).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+nil
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:23:3).
+; Unable to resolve symbol: insert! in this context
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:19:3).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:19:3).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:19:3).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:19:3).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:19:3).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+nil
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:19:3).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:19:3).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:19:3).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+nil
+; WARNING: set already refers to: #'clojure.core/set in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/set
+; WARNING: into already refers to: #'clojure.core/into in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/into
+; WARNING: group-by already refers to: #'clojure.core/group-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/group-by
+; WARNING: update already refers to: #'clojure.core/update in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/update
+; WARNING: partition-by already refers to: #'clojure.core/partition-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/partition-by
+; WARNING: for already refers to: #'clojure.core/for in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/for
+; WARNING: filter already refers to: #'clojure.core/filter in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/filter
+clj꞉shorturl.db꞉> 
+#'shorturl.db/mysql-db
+clj꞉shorturl.db꞉> 
+#'shorturl.db/query
+clj꞉shorturl.db꞉> 
+nil
+clj꞉shorturl.db꞉> 
+nil
+clj꞉shorturl.db꞉> 
+#'shorturl.db/insert!
+clj꞉shorturl.db꞉> 
+()
+clj꞉shorturl.db꞉> 
+(2)
+clj꞉shorturl.db꞉> 
+({:slug "goog", :url "https://www.google.com/"} {:slug "yahoo", :url "https://www.yahoo.com/"})
 clj꞉shorturl.db꞉> 
