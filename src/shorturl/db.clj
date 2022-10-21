@@ -1,13 +1,14 @@
 (ns shorturl.db
   (:require [clojure.java.jdbc :as j]
             [honey.sql :as sql]
-            [honey.sql.helpers :refer :all]))
+            [honey.sql.helpers :refer :all]
+            [shorturl.env :refer [env]]))
 
-(def mysql-db {:host "us-east.connect.psdb.cloud"
+(def mysql-db {:host (env :HOST)
                :dbtype "mysql"
-               :dbname "shorturl"
-               :user "efxak0z7ax6ebb9oxf1o"
-               :password "pscale_pw_GjY6j6tKZ9ysWxG2Zf426aJmjTsTPHVYDEHMWqUEfux"})
+               :dbname (env :DBNAME)
+               :user (env :USER)
+               :password (env :PASSWORD)})
 
 (defn query [q]
   (j/query mysql-db q))
@@ -23,10 +24,10 @@
                (sql/format))))
 
 (defn get-url [slug]
-  (-> (query (-> (select :url)
+  (-> (query (-> (select :*)
                  (from :redirects)
                  (where [:= :slug slug])
-                 (sql/format))) first))
+                 (sql/format))) first :url))
 
 (comment
   (query (-> (select :*)
