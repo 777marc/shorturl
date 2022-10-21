@@ -15,6 +15,19 @@
 (defn insert! [q]
   (j/db-do-prepared mysql-db q))
 
+(defn insert-redirect! [slug url]
+  (insert! (-> (insert-into :redirects)
+               (columns :slug :url)
+               (values
+                [[slug url]])
+               (sql/format))))
+
+(defn get-url [slug]
+  (-> (query (-> (select :url)
+                 (from :redirects)
+                 (where [:= :slug slug])
+                 (sql/format))) first))
+
 (comment
   (query (-> (select :*)
              (from :redirects)
@@ -25,4 +38,8 @@
                (values
                 [["goog" "https://www.google.com/"]
                  ["yahoo" "https://www.yahoo.com/"]])
-               (sql/format))))
+               (sql/format)))
+
+  (insert-redirect! "mcode" "https://mendozacode.io")
+
+  (get-url "mcode"))
